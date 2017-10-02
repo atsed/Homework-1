@@ -17,7 +17,7 @@ public:
     stack(){
         array_size_ = 10;
         array_ = new T[array_size_];
-        count_ = 1;
+        count_ = 0;
     }
     
     size_t count() const{             //находим количество элементов в стеке
